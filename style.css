@@ -1,0 +1,62 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #008CBA;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #008CBA;
+  color: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
